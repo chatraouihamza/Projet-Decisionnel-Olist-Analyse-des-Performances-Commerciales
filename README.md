@@ -68,7 +68,7 @@ Le Data Warehouse peuplé par le processus ETL alimente les tableaux de bord Pow
 
 Un package SSIS unique (`ETL.dtsx`) a été développé pour orchestrer l'ensemble du flux de données, de la préparation des tables cibles (vidage et gestion des contraintes), au chargement des dimensions et de la table de staging, jusqu'au remplissage final de la table de faits. Ce package est conçu pour être déployé sur un Catalogue SSIS et automatisé via un Job SQL Server Agent.
 
-*(Vous pouvez ajouter ici l'image de votre Control Flow SSIS si vous le souhaitez, en utilisant le même format de chemin)*
+
 ![Control Flow ETL SSIS](Data/images/image%20(8).png)
 
 ---
